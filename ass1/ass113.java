@@ -7,7 +7,7 @@ class ass113{
 		System.out.println("Enter string: ");
 		String str = scan.nextLine();
 		ass113 ass = new ass113();
-		System.out.println((ass.vowelCounter(str)));
+		System.out.println("the number of vowel is: "+(ass.vowelCounter(str)));
 		
 	}
 	private int vowelCounter(String str){
