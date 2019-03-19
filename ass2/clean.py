@@ -1,3 +1,6 @@
+#python script to remove all ".class" files before pushing assignments into git.
+#Rak3sh
+
 import os,sys
 
 for file in (os.listdir(os.getcwd())):
